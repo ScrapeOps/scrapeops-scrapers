@@ -4,7 +4,7 @@ This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy ser
 
 It is designed for **educational purposes** and demonstrates how to scrape search engine results while handling **anti-bot protections** effectively.  
 
-📖 **Full tutorial:** [How to Scrape Amazon With Python Requests](https://scrapeops.io/python-web-scraping-playbook/python-scrape-google-search/)
+📖 **Full tutorial:** [How to Scrape Google Search Results With Python Requests](https://scrapeops.io/python-web-scraping-playbook/python-scrape-google-search/)
 
 ---
 
