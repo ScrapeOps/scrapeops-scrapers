@@ -109,11 +109,11 @@ You can also adjust the following parameters:
 ## How to Run the Scraper
 Once the script is set up with your API key and product search terms, you can run the script directly from your command line.
 
-Save the script to a file, for example, `reddit_scraper.py`, and run it using:
+Save the script to a file, for example, `walmart_scraper.py`, and run it using:
 
 
 ```bash
-python reddit_scraper.py
+python walmart_scraper.py
 ```
 
 ---
