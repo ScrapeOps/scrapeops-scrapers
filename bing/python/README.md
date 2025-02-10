@@ -34,7 +34,7 @@ This scraper is for **educational purposes only**. Web scraping should be done e
 
 You can view their terms of service [here](https://www.microsoft.com/en-us/servicesagreement). Since Bing is a Microsoft product, it is subject to their terms. You can view their robots.txt [here](https://www.bing.com/robots.txt).
 
-ScrapeOps take no responsibility for misuse of this code. Ensure you comply with all legal requirements before scraping Amazon.
+ScrapeOps take no responsibility for misuse of this code. Ensure you comply with all legal requirements before scraping Bing.
 
 ---
 
