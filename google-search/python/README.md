@@ -30,6 +30,10 @@ This scraper extracts the following data from Google search result pages:
 ## Fair Use Disclaimer
 This scraper is for **educational purposes only**. Web scraping should be done ethically and legally, following Google’s terms of service.
 
+You can look at Google's robots.txt [here](https://www.google.com/robots.txt). In addition, if you're unclear about whether or not you can scrape a site, check their Terms and Conditions.
+
+You can view Google's Terms and Conditions [here](https://policies.google.com/terms). 
+
 ScrapeOps take no responsibility for misuse of this code. Ensure you comply with all legal requirements before scraping Amazon.
 
 ---
@@ -48,7 +52,7 @@ Ensure you have Python installed, then install the required dependencies:
 pip install requests beautifulsoup4
 ```
 
-### 2. Install Dependencies  
+### 2. Install ScrapeOps Proxy Service
 The script uses the ScrapeOps proxy service for web scraping. You need an API key from ScrapeOps to use the service:
 
 1. Visit [ScrapeOps](https://scrapeops.io/) and sign up for an API key.
