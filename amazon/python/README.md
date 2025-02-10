@@ -50,6 +50,10 @@ This scraper extracts the following Amazon data:
 ## Fair Use Disclaimer
 This scraper is for educational purposes only. Web scraping should be done ethically and legally, following Amazon’s terms of service.
 
+For Amazon you can check the links below.
+- [Terms of Service](https://www.amazon.com/gp/help/customer/display.html?nodeId=202140280)
+- [robots.txt](https://www.amazon.com/robots.txt)
+
 ScrapeOps take no responsibility for misuse of this code. Ensure you comply with all legal requirements before scraping Amazon.
 
 ---
@@ -68,7 +72,7 @@ Ensure you have Python installed, then install the required dependencies:
 pip install requests beautifulsoup4
 ```
 
-### 2. Install Dependencies  
+### 2. Install ScrapeOps Proxy Service 
 The script uses the ScrapeOps proxy service for web scraping. You need an API key from ScrapeOps to use the service:
 
 1. Visit [ScrapeOps](https://scrapeops.io/) and sign up for an API key.
