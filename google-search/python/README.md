@@ -1,4 +1,4 @@
-# Amazon.com Scraper  
+# Google Search Results Scraper  
 
 This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy service to extract data from [Google](google.com) search results.
 
