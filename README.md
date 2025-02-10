@@ -1,56 +1,47 @@
-# Amazon.com Scraper  
+# Reddit Scraper  
 
-This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** to extract product listing data from [Amazon](amazon.com).  
+This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy service to extract data from [Reddit](reddit.com) search results.
 
-It is designed for **educational purposes** and demonstrates how to scrape large e-commerce websites while handling **anti-bot protections** effectively.  
+It is designed for **educational purposes** and demonstrates how to scrape data from Reddit while handling **anti-bot protections** effectively.  
 
-📖 **Full tutorial:** [How to Scrape Amazon With Python Requests](https://scrapeops.io/python-web-scraping-playbook/python-scrape-amazon/)
+📖 **Full tutorial:** [How to Scrape Reddit With Python Requests](https://scrapeops.io/python-web-scraping-playbook/python-scrape-reddit/)
 
 ---
 
 ## Features  
 
-This scraper extracts the following Amazon data:  
+This scraper extracts the following data from Bing search result pages:
 
-✅ **Product Listings** – Data extracted from Amazon search results (multiple products on a search page).
+✅ Reddit Post Data - Data extracted from the each Reddit post:
 
 
-| Data Point       | Description |
-|-----------------|-------------|
-| `name` | ASIN (Amazon Standard Identification Number) of the product. |
-| `title` | Product title as displayed in search results. |
-| `url` | Product URL on Amazon. |
-| `is_ad` | Boolean indicating if the product is a sponsored (ad) listing. |
-| `pricing_unit` | Currency symbol of the product price (e.g., `$`, `£`). |
-| `price` | Current product price extracted from the listing. |
-| `real_price` | Original price before discount, if applicable. |
-| `rating` | Product rating as shown in search results. |
+| Item         | Description                                   |
+|---------------|-----------------------------------------------|
+| `name`        | Title of the Reddit post                      |
+| `author`      | Author of the Reddit post                     |
+| `permalink`   | URL path to the Reddit post                   |
+| `upvote_ratio`| Upvote-to-downvote ratio of the Reddit post   |
 
-✅ **Product Details** – Data extracted from individual product pages.
+✅ Reddit Comment Data - Data extracted from the each comment in the Reddit post:
 
-| Data Point       | Description |
-|-----------------|-------------|
-| `name` | ASIN of the product. |
-| `title` | Product title from the product page. |
-| `url` | Full product page URL. |
-| `pricing_unit` | Currency symbol. |
-| `price` | Final price extracted from the product page. |
-| `feature_1` | First key feature from the product description. |
-| `feature_2` | Second key feature from the product description. |
-| `feature_3` | Third key feature from the product description. |
-| `feature_4` | Fourth key feature from the product description. |
-| `images_1` | First product image URL. |
-| `images_2` | Second product image URL. |
-| `images_3` | Third product image URL. |
-| `images_4` | Fourth product image URL. |
+| Item     | Description                                    |
+|-----------|------------------------------------------------|
+| `name`    | Author of the comment                          |
+| `body`    | The text of the comment                        |
+| `upvotes` | The number of upvotes the comment received     |
 
 
 ---
 
 ## Fair Use Disclaimer
-This scraper is for educational purposes only. Web scraping should be done ethically and legally, following Amazon’s terms of service.
+This scraper is for **educational purposes only**. Web scraping should be done ethically and legally, following Reddit’s terms of service.
 
-ScrapeOps take no responsibility for misuse of this code. Ensure you comply with all legal requirements before scraping Amazon.
+
+You can view Reddit's Terms [here](https://redditinc.com/policies/user-agreement-february-15-2024). You can view their robots.txt [here](https://www.reddit.com/robots.txt). 
+
+**Reddit reserves the right to block, ban, or delete your account if they believe you are responsible for malicious activity.**
+
+ScrapeOps take no responsibility for misuse of this code. Ensure you comply with all legal requirements before scraping Reddit.
 
 ---
 
@@ -65,35 +56,38 @@ This repository is provided as is with no official support. If you encounter bug
 Ensure you have Python installed, then install the required dependencies:  
 
 ```bash
-pip install requests beautifulsoup4
+pip install requests
 ```
 
-### 2. Install Dependencies  
+### 2.  Install ScrapeOps Proxy Service
 The script uses the ScrapeOps proxy service for web scraping. You need an API key from ScrapeOps to use the service:
 
 1. Visit [ScrapeOps](https://scrapeops.io/) and sign up for an API key.
-2. Replace "YOUR-SUPER-SECRET-API-KEY" in the script with your actual ScrapeOps API key:
-
+2. Replace YOUR-SUPER-SECRET-API-KEY in the script with your actual API key:
 
 ```bash
-SCRAPEOPS_API_KEY=your_api_key_here
+API_KEY = "YOUR-SUPER-SECRET-API-KEY"
 ```
 
-### 3. Configure Product Search Parameters
-In the `main` section of the script, you define the list of products you want to search for. 
 
-The `PRODUCTS` list can be modified to include any product names you want to scrape data for. For example:
+
+
+### 3. Configure Product Search Parameters
+In the `main` section of the script, you define the subreddit you want to scrape. 
+
+The script is configured to scrape posts from the news subreddit by default. You can modify the list FEEDS to include other subreddits you'd like to scrape.
+
+For example:
 
 ```python
-PRODUCTS = ["phone", "laptop", "headphones"]
+FEEDS = ["news"]
 ```
 
 You can also adjust the following parameters:
 
-- `PAGES`: The number of pages to scrape for each product.
-- `MAX_RETRIES`: The number of retry attempts if a page fails to load.
-- `MAX_THREADS`: The number of threads used for concurrent scraping.
-- `LOCATION`: The location parameter (e.g., "us" for the USA).
+- `MAX_THREADS`:  The number of threads to use for concurrent scraping.
+- `LOCATION`: The location/country for search results (e.g., "us" for the United States).
+- `BATCH_SIZE`: If you want the top 100 posts instead of 10, change `BATCH_SIZE` to 100.
 
 
 ---
@@ -101,22 +95,17 @@ You can also adjust the following parameters:
 ## How to Run the Scraper
 Once the script is set up with your API key and product search terms, you can run the script directly from your command line.
 
-Save the script to a file, for example, `amazon_scraper.py`, and run it using:
+Save the script to a file, for example, `reddit_scraper.py`, and run it using:
 
 
 ```bash
-python amazon_scraper.py
+python reddit_scraper.py
 ```
 
 ---
 
 ## Output Format
-The scraped data is saved into **a CSV file** for each product in the format `product_name.csv` (e.g., phone.csv).
+After the script has finished running, you should see the following files:
 
-Each CSV file will contain:
- -Product Name
-- Title
-- Price
-- Rating
-- URL
-- And other product features
+- **Post Data CSV:** A CSV file for each subreddit containing the scraped post data (e.g., news.csv).
+- **Comment Data CSV:** For each post, a CSV file containing the scraped comment data (e.g., post-title.csv).
