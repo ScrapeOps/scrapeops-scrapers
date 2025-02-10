@@ -117,8 +117,6 @@ python target_scraper.py
 ---
 
 ## Output Format
-After the script has finished running, you should see the CSV files with the following structure:
-
 After the script finishes running, it will generate CSV files for each keyword, containing:
 
 - **Search result data** (e.g., laptop.csv)
