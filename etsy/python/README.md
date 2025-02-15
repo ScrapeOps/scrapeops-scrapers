@@ -93,7 +93,7 @@ The script uses the ScrapeOps proxy service for web scraping. You need an API ke
 ### 3. Configure Product Search Parameters
 In the `main` section of the script, you define the search query you want to scrape. 
 
-Each keyword corresponds to a separate search query on the Nordstrom website.
+Each keyword corresponds to a separate search query on the Etsy website.
 
 You can customize the keywords you want to scrape in the `keyword_list` section of the script.  
 
