@@ -10,7 +10,7 @@ It is designed for **educational purposes** and demonstrates how to scrape data 
 
 ## Features  
 
-This scraper extracts the following data from Etsy:
+This scraper extracts the following data from LinkedIn:
 
 
 ✅ Search Data - Data extracted from the LinkedIn Search Results:
