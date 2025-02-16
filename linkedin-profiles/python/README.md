@@ -27,7 +27,7 @@ This scraper extracts the following data from LinkedIn:
 
 
 
-✅ Profile Data - Data extracted from the the individual LinkedIn Profiles:
+✅ Profile Data - Data extracted from the individual LinkedIn Profiles:
 
 | Field Name       | Description                                       |
 |-----------------|-------------------------------------------------|
