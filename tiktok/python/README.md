@@ -32,12 +32,11 @@ This scraper extracts the following data from TikTok:
 ✅ Video Data - Data extracted from the each TikTok video linked on the channel's page:
 
 | **Field Name**      | **Description**                                                   |
-|-------------------|--------------------------------------------------------------------------|
-| name              | The name of the listing (e.g., address or title).                        |
-| cold_rent         | The cold rent for the property (base rent).                              |
-| price_per_m2      | The price per square meter for the property.                             |
-| additional_costs  | The additional costs associated with the property (e.g., utilities).    |
-| total_cost        | The total cost of the property (cold rent + additional costs).           |
+|-------------|----------------------------------------------------|
+| name        | The name/ID of the video (extracted from the video URL). |
+| url         | The direct URL to the video on TikTok.             |
+| views       | The number of views the video has received.       |
+
 
 
 ---
