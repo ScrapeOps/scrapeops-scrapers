@@ -25,7 +25,7 @@ This scraper extracts the following data from LinkedIn:
 
 
 
-✅ Job Post Data - Data extracted from the the individual LinkedIn Job Posts:
+✅ Job Post Data - Data extracted from the individual LinkedIn Job Posts:
 
 | Field Name      | Description                                              |
 |----------------|----------------------------------------------------------|
