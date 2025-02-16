@@ -46,8 +46,8 @@ This scraper is for **educational purposes only**. Web scraping should be done e
 
 We also need to pay attention to both their Terms and Conditions and their robots.txt. Immobilienscout24 explicitly prohibits scraping. We did violate their policies in this scrape for educational purposes.
 
-- You may view TikTok's terms [here](https://www.immoscout24.ch/c/en/about-us/gtc). 
-- Their robots.txt is available [here](https://www.immobilienscout24.de/robots.txt).
+- You may view TikTok's terms [here](https://www.tiktok.com/legal/page/us/terms-of-service/en). 
+- Their robots.txt is available [here](https://support.tiktok.com/robots.txt).
 
 It's important to note that violation of these Terms could result in your account getting blocked or even permanently removed from the site.
 
