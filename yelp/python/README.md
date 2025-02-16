@@ -1,6 +1,6 @@
 # Yelp Scraper  
 
-This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy service to extract data from [Yelp](https://www.g2.com/).
+This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy service to extract data from [Yelp](https://www.yelp.com/).
 
 It is designed for **educational purposes** and demonstrates how to scrape data from Yelp while handling **anti-bot protections** effectively.  
 
