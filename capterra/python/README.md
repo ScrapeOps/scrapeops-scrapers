@@ -1,6 +1,6 @@
 # Capterra Scraper  
 
-This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy service to extract data from [Capterra](https://www.g2.com/).
+This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy service to extract data from [Capterra](https://www.capterra.com/).
 
 It is designed for **educational purposes** and demonstrates how to scrape data from Capterra while handling **anti-bot protections** effectively.  
 
@@ -44,8 +44,8 @@ This scraper extracts the following data from Capterra:
 ## Fair Use Disclaimer
 This scraper is for **educational purposes only**. Web scraping should be done ethically and legally, following Capterra's terms of service.
 
-- You may view Capterra's terms [here](https://legal.g2.com/terms-of-use). 
-- Their robots.txt is available [here](https://www.g2.com/robots.txt).
+- You may view Capterra's terms [here](https://www.capterra.com/legal/terms-of-use/). 
+- Their robots.txt is available [here](https://www.capterra.com/robots.txt).
 
 ScrapeOps take no responsibility for misuse of this code. Ensure you comply with all legal requirements before scraping BestBuy.
 
