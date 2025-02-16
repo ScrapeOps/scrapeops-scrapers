@@ -4,7 +4,7 @@ This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy ser
 
 It is designed for **educational purposes** and demonstrates how to scrape data from LinkedIn Jobs while handling **anti-bot protections** effectively.  
 
-📖 **Full tutorial:** [How to Scrape Etsy With Python Requests](https://scrapeops.io/python-web-scraping-playbook/python-scrape-linkedin-jobs/)
+📖 **Full tutorial:** [How to Scrape LinkedIn Jobs With Python Requests](https://scrapeops.io/python-web-scraping-playbook/python-scrape-linkedin-jobs/)
 
 ---
 
