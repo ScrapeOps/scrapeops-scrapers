@@ -26,7 +26,7 @@ This scraper extracts the following data from G2:
 
 
 
-✅ Review Data - Data extracted from the the individual business review pages:
+✅ Review Data - Data extracted from the individual business review pages:
 
 | Field Name    | Description |
 |--------------|------------|
