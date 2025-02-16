@@ -10,7 +10,7 @@ It is designed for **educational purposes** and demonstrates how to scrape data 
 
 ## Features  
 
-This scraper extracts the following data from LinkedIn:
+This scraper extracts the following data from Trustpilot:
 
 
 ✅ Search Data - Data extracted from the Trustpilot Search results: 
