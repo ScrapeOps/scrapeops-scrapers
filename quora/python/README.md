@@ -40,8 +40,6 @@ This scraper extracts the following data from Quora:
 ## Fair Use Disclaimer
 This scraper is for **educational purposes only**. Web scraping should be done ethically and legally, following Quora's terms of service.
 
-We also need to pay attention to both their Terms and Conditions and their robots.txt. Immobilienscout24 explicitly prohibits scraping. We did violate their policies in this scrape for educational purposes.
-
 - You may view Quora's terms [here](https://www.quora.com/about/tos). 
 - Their robots.txt is available [here](https://www.quora.com/robots.txt).
 
