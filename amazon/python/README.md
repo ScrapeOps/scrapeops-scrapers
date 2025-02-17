@@ -80,7 +80,7 @@ The script uses the ScrapeOps proxy service for web scraping. You need an API ke
 
 
 ```bash
-SCRAPEOPS_API_KEY=your_api_key_here
+SCRAPEOPS_API_KEY=YOUR-SUPER-SECRET-API-KEY
 ```
 
 ### 3. Configure Product Search Parameters
