@@ -122,8 +122,8 @@ python google_maps_scraper.py
 ---
 
 ## Output Format
-After the script completes, you will have several CSV files containing the extracted data based on search results from Google and replies from Quora pages.
- 
+After the script completes, you will have several CSV files containing the extracted data based on search results from Google Maps.
+
 - **Search Data:** For each keyword, a CSV file will be created with data for the businesses found. The CSV files will be named after the keyword, replacing spaces with dashes, e.g., restaurant.csv.
 - **Business Data:** The script scrapes the business pages to collect detailed information like hours of operation and addresses.
 
