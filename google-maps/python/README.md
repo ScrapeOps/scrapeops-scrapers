@@ -1,4 +1,4 @@
-# Quora Scraper  
+# Google Maps Scraper  
 
 This scraper uses [ScrapeOps.io](https://scrapeops.io/) and **Python** proxy service to extract data from [Google Maps](https://www.google.com/maps/).
 
