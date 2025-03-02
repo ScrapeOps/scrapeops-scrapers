@@ -76,7 +76,7 @@ Below is a list of available scrapers:
 | G2                    | [g2.com](https://www.g2.com/)           |
 | Capterra              | [capterra.com](https://www.capterra.com/)     |
 | Yelp                  | [yelp.com](https://www.yelp.com/)         |
-| Google Reviews        | [google.com/maps/reviews](https://www.google.com/maps/reviews/) |
+| Google Reviews        | [google.com/maps/reviews](https://www.google.com/reviews/) |
 
 
 
